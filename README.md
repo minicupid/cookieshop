@@ -7,6 +7,7 @@
 
 * main page cursors referenced from a fourm
 
-# progress checklist
+# wip
 [ x ] fix image cropping when flex
+*
 [ - ] receipt feature
