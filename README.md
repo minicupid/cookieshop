@@ -8,6 +8,5 @@
 * main page cursors referenced from a fourm
 
 # wip
-[ x ] fix image cropping when flex
-*
-[ - ] receipt feature
+* [ x ] fix image cropping when flex
+* [ - ] receipt feature
