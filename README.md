@@ -6,3 +6,7 @@
 * some code was referenced from forums and tutorials
 
 * main page cursors referenced from a fourm
+
+* ==== progress checklist ====
+* [ x ] fix image cropping when flex
+* [ - ] receipt feature
