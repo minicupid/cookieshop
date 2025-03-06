@@ -5,6 +5,7 @@
         <title> menu </title>
         <link rel = "stylesheet" href = "style.css">
         <link rel="icon" href="assets/choco.png">
+
     </head>
     <body>
 
@@ -25,7 +26,7 @@
 
             </div>
 
-            <div class = "flavor">
+            <div class = "menu">
                 <h2> pick a cookie to munch on. </h2>
                 <div class = "item-container">
 
@@ -55,21 +56,38 @@
                     </div>
 
                 </div>
-
+                
+                
             </div>
 
+            <div class = "purchase">
+                <div class = "thankyou"></div>
+                <div class = "return">
+                    <p> return to menu </p>
+                </div>
+                <div class = "cookieDisplay">
+                    <img draggable="false" src="">
+                </div>
+            </div>
+            
             <audio id = "crunch" src = "assets/crunch.mp3"> </audio>
             
             <audio id = "music" src = "assets/music.mp3" loop autoplay> </audio>
 
         </div>
 
-        <div class = "footer">
-            <p> ✉️ message : future commits will make me sooper interactive ! </p>
-            <button class = "button" onclick = "hideShow ()"> ok :] </button>
+        <div class = "bottom-container"> 
+
+            <button class = "receiptbutton" onclick = "showConsumed()"> <img src="assets/receipt.png" class="receipt-icon"> view receipt </button>
+    
+            <div class = "footer">
+                <p> ✉️ message : future commits will make me sooper interactive ! </p>
+                <button class = "okbutton" onclick = "hideShow ()"> ok :] </button>
+            </div>
+            
         </div>
 
-    <script src = "script.js"> </script>
+        <script src = "script.js"> </script>
 
     </body>
     
