@@ -8,6 +8,7 @@ var cookieImage = purchase.querySelector(".cookieDisplay img");
 var returnButton = purchase.querySelector(".return");
 
 var consumed = [];
+var musicplaying = false;
 
 window.onload = function() {
   window.scrollTo({
@@ -15,6 +16,15 @@ window.onload = function() {
       behavior: "smooth",
   });
 }
+
+// autoplay hack
+
+document.addEventListener('mousemove', function() {
+    if (!musicplaying) {
+        music.play();
+        musicplaying = true;
+    }
+});
 
 returnButton.style.display = "none";
 
@@ -28,7 +38,6 @@ function hideShow() {
   if (display) {
     footer.style.display = "none";
     crunch.play();
-    music.play();
   }
   else {
     footer.style.display = "block";
@@ -42,7 +51,6 @@ document.querySelectorAll(".item").forEach(item => {
   item.addEventListener("click", function() {
       const name = this.querySelector(".name").textContent.trim();
       showPurchase(name);
-      music.play();
   });
 });
 
