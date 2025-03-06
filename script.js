@@ -42,6 +42,7 @@ document.querySelectorAll(".item").forEach(item => {
   item.addEventListener("click", function() {
       const name = this.querySelector(".name").textContent.trim();
       showPurchase(name);
+      music.play();
   });
 });
 
