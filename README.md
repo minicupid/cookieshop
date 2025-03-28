@@ -1,8 +1,6 @@
 # credits
 
-* original icons and layout by me
+* website design and icons are mine
 * header art by uncredited owner on pinterest
 * background music is 'herbal tea' by shushubobo
-* script was referenced from forums and tutorials
-
-* circle cursors referenced from a public forum
+* some script was referenced from forums and tips
